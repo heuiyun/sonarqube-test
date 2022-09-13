@@ -35,19 +35,15 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <sonar.host.url>http://127.0.0.1:9000</sonar.host.url>
-        <sonar.login>sqp_4902757122fa79c8eab39037859e97fc28dd43cb</sonar.login>
-        <sonar.language>java</sonar.language>
-        <sonar.scm.provider>git</sonar.scm.provider>
     </properties>
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.sonarsource.sonarqube</groupId>
-                <artifactId>sonar-plugin-api</artifactId>
-                <version>8.9.0.43852</version>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.sonarsource.sonarqube</groupId>-->
+<!--                <artifactId>sonar-plugin-api</artifactId>-->
+<!--                <version>8.9.0.43852</version>-->
+<!--            </plugin>-->
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <executions>
