@@ -11,5 +11,5 @@ public class HelloController {
         return "Greetings from Spring Boot!";
     }
 
-    // sonarqube test 3
+    // sonarqube test 4
 }
