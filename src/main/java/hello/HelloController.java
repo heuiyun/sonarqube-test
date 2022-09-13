@@ -10,6 +10,6 @@ public class HelloController {
     public String index() {
         return "Greetings from Spring Boot!";
     }
-    
-    // sonarqube test
+
+    // sonarqube test 2
 }
